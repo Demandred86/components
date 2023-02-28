@@ -1,7 +1,6 @@
 import Button from "../components/Button";
 import { useReducer } from "react";
 import Panel from "../components/Panel";
-import produce from "immer";
 
 const INCREMENT_COUNT = "increment";
 const DECREMENT_COUNT = "decrement";
